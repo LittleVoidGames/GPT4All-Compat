@@ -7,8 +7,7 @@ import time
 import urllib.request
 import socket
 import socketserver
-from http.server import BaseHTTPRequestHandler, HTTPServer
-from threading import Thread
+import http.server
 
 # Configuration
 VERSION = "v1.2"
