@@ -11,7 +11,7 @@ This is a personal project I started to attempt to make a compatibility layer fo
 - Make sure GPT4All is set to use the same port (default 4891) as the script. Change either if needed.
 - Point your external program (like Cline) at the port created by this script instead of the port GPT4All is using. (default 8086)
 - Depending on the program, you may or may not need to explicitly give the "/v1" ending to the endpoint. Test with and without to see what works.
-- Of course, there is not API key, so leave it blank or put some placeholder text in if Cline asks for one.
+- Of course, there is no API key, so leave it blank or put some placeholder text in if Cline asks for one.
 - Profit?
 
 Please submit a PR if you have any fixes you're like to contribute back upsteam. I kind of gave on fixing the whitespace issue, so if you're just looking for something to tinker with, that's a good place to start. 
